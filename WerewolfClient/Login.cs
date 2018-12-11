@@ -72,5 +72,20 @@ namespace WerewolfClient
             wcmd.Payloads = new Dictionary<string, string>() { { "Login", TbLogin.Text}, { "Password",TbPassword.Text}, { "Server", TBServer.Text } };
             controller.ActionPerformed(wcmd);
         }
+
+        private void TwoPL_Click(object sender, EventArgs e)
+        {
+            TBServer.Text = "http://project-ile.net:2342/werewolf/";
+        }
+
+        private void FourPL_Click(object sender, EventArgs e)
+        {
+            TBServer.Text = "http://project-ile.net:2344/werewolf/";
+        }
+
+        private void SixteenPL_Click(object sender, EventArgs e)
+        {
+            TBServer.Text = "http://project-ile.net:23416/werewolf/";  
+        }
     }
 }
