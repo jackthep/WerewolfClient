@@ -11,6 +11,7 @@ using EventEnum = WerewolfClient.WerewolfModel.EventEnum;
 using CommandEnum = WerewolfClient.WerewolfCommand.CommandEnum;
 using WerewolfAPI.Model;
 using Role = WerewolfAPI.Model.Role;
+using System.Media;
 
 namespace WerewolfClient
 {
@@ -139,6 +140,11 @@ namespace WerewolfClient
                 i++;
             }
         }
+        private void Gunshot()
+        {
+            SoundPlayer Bang = new SoundPlayer(@"C:\Users\LENOVO\Source\Repos\WerewolfClient\WerewolfClient\bin\Debug\GunShot.wav");
+            Bang.Play();
+        }
         public void Notify(Model m)
         {
             if (m is WerewolfModel)
@@ -254,10 +260,12 @@ namespace WerewolfClient
                         }
                         break;
                     case EventEnum.YouShotDead:
+                        Gunshot();
                         AddChatMessage("You're shot dead by gunner.");
                         _isDead = true;
                         break;
                     case EventEnum.OtherShotDead:
+                        Gunshot();
                         AddChatMessage(wm.EventPayloads["Game.Target.Name"] + " was shot dead by gunner.");
                         break;
                     case EventEnum.Alive:
@@ -355,7 +363,7 @@ namespace WerewolfClient
         private void BtnPlayerX_Click(object sender, EventArgs e)
         {
             Button btnPlayer = (Button)sender;
-            int index = (int) btnPlayer.Tag;
+            int index = (int)btnPlayer.Tag;
             if (players == null)
             {
                 // Nothing to do here;
@@ -398,6 +406,12 @@ namespace WerewolfClient
                 TbChatInput.Text = "";
                 controller.ActionPerformed(wcmd);
             }
+        }
+
+        Note note = new Note();
+        private void Note_Click(object sender, EventArgs e)
+        {
+            note.Show();
         }
     }
 }
