@@ -26,6 +26,7 @@ namespace WerewolfClient
         private bool _actionActivated;
         private string _myRole;
         private bool _isDead;
+        private bool DorN = false;
         private List<Player> players = null;
         public MainForm()
         {
@@ -63,7 +64,34 @@ namespace WerewolfClient
         {
             btn.Visible = btn.Enabled = state;
         }
+        int RDS = 0;
+        Timer Period = new Timer();
+        public void RandomDeathVote()
+        {
+            Period.Interval = 8000;
+            Period.Tick += new EventHandler(HidePictureBox);
+            pictureBox1.BringToFront();
+            pictureBox1.Show();
+            Period.Start();
+            if (RDS % 3 == 0)
+            {
+                pictureBox1.Image = Properties.Resources.DeathDrown;
+            } else if (RDS % 3 == 1)
+            {
+                pictureBox1.Image = Properties.Resources.DeathBurned;
+            } else if (RDS % 3 == 2)
+            {
+                pictureBox1.Image = Properties.Resources.DeathGuillotine2;
+            }
+            RDS++;
 
+        }
+        private void HidePictureBox(object sender, EventArgs e)
+        {
+            Period.Stop();
+            pictureBox1.SendToBack();
+            pictureBox1.Hide();
+        }
         private void UpdateAvatar(WerewolfModel wm)
         {
             int i = 0;
@@ -222,11 +250,14 @@ namespace WerewolfClient
                         AddChatMessage("Switch to day time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Day;
                         LBPeriod.Text = "Day time of";
+                        DorN = true;
                         break;
                     case EventEnum.SwitchToNightTime:
+                        RandomDeathVote();
                         AddChatMessage("Switch to night time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Night;
                         LBPeriod.Text = "Night time of";
+                        DorN = false;
                         break;
                     case EventEnum.UpdateDay:
                         // TODO  catch parse exception here
@@ -239,6 +270,22 @@ namespace WerewolfClient
                         _currentTime = int.Parse(tempTime);
                         LBTime.Text = tempTime;
                         UpdateAvatar(wm);
+                        if (DorN)
+                        {
+                            TbChatBox.BackColor = Color.White;
+                            TbChatBox.ForeColor = Color.Black;
+                            TbChatInput.BackColor = Color.White;
+                            TbChatInput.ForeColor = Color.Black;
+                            this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("D" + (_currentTime + 1));
+                        }
+                        else
+                        {
+                            TbChatBox.BackColor = Color.Black;
+                            TbChatBox.ForeColor = Color.White;
+                            TbChatInput.BackColor = Color.Black;
+                            TbChatInput.ForeColor = Color.White;
+                            this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("N" + (_currentTime + 1));
+                        }
                         break;
                     case EventEnum.Vote:
                         if (wm.EventPayloads["Success"] == WerewolfModel.TRUE)

@@ -46,6 +46,7 @@
             this.BtnPlayer2 = new System.Windows.Forms.Button();
             this.BtnPlayer1 = new System.Windows.Forms.Button();
             this.BtnPlayer0 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.GBChat = new System.Windows.Forms.GroupBox();
             this.TbChatInput = new System.Windows.Forms.TextBox();
             this.TbChatBox = new System.Windows.Forms.TextBox();
@@ -61,6 +62,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.GBPlayers.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.GBChat.SuspendLayout();
             this.GBAction.SuspendLayout();
             this.GBStatus.SuspendLayout();
@@ -68,6 +70,7 @@
             // 
             // GBPlayers
             // 
+            this.GBPlayers.BackColor = System.Drawing.Color.Transparent;
             this.GBPlayers.Controls.Add(this.BtnPlayer15);
             this.GBPlayers.Controls.Add(this.BtnPlayer14);
             this.GBPlayers.Controls.Add(this.BtnPlayer13);
@@ -84,6 +87,7 @@
             this.GBPlayers.Controls.Add(this.BtnPlayer2);
             this.GBPlayers.Controls.Add(this.BtnPlayer1);
             this.GBPlayers.Controls.Add(this.BtnPlayer0);
+            this.GBPlayers.Controls.Add(this.pictureBox1);
             this.GBPlayers.Location = new System.Drawing.Point(16, 15);
             this.GBPlayers.Margin = new System.Windows.Forms.Padding(4);
             this.GBPlayers.Name = "GBPlayers";
@@ -317,8 +321,17 @@
             this.BtnPlayer0.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnPlayer0.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(24, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(492, 455);
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
             // GBChat
             // 
+            this.GBChat.BackColor = System.Drawing.Color.Transparent;
             this.GBChat.Controls.Add(this.TbChatInput);
             this.GBChat.Controls.Add(this.TbChatBox);
             this.GBChat.Location = new System.Drawing.Point(551, 15);
@@ -343,7 +356,7 @@
             // TbChatBox
             // 
             this.TbChatBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TbChatBox.Location = new System.Drawing.Point(20, 23);
+            this.TbChatBox.Location = new System.Drawing.Point(21, 24);
             this.TbChatBox.Margin = new System.Windows.Forms.Padding(4);
             this.TbChatBox.Multiline = true;
             this.TbChatBox.Name = "TbChatBox";
@@ -353,6 +366,7 @@
             // 
             // GBAction
             // 
+            this.GBAction.BackColor = System.Drawing.Color.Transparent;
             this.GBAction.Controls.Add(this.button1);
             this.GBAction.Controls.Add(this.BtnJoin);
             this.GBAction.Controls.Add(this.BtnAction);
@@ -411,6 +425,7 @@
             // 
             // GBStatus
             // 
+            this.GBStatus.BackColor = System.Drawing.SystemColors.Control;
             this.GBStatus.Controls.Add(this.LBTime);
             this.GBStatus.Controls.Add(this.LBDay);
             this.GBStatus.Controls.Add(this.LBPeriod);
@@ -489,6 +504,7 @@
             this.Text = "Werewolf Client";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.GBPlayers.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.GBChat.ResumeLayout(false);
             this.GBChat.PerformLayout();
             this.GBAction.ResumeLayout(false);
@@ -531,6 +547,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnAction;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
