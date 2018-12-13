@@ -26,6 +26,7 @@ namespace WerewolfClient
         private bool _actionActivated;
         private string _myRole;
         private bool _isDead;
+        private bool DorN = false;
         private List<Player> players = null;
         public MainForm()
         {
@@ -222,11 +223,13 @@ namespace WerewolfClient
                         AddChatMessage("Switch to day time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Day;
                         LBPeriod.Text = "Day time of";
+                        DorN = true;
                         break;
                     case EventEnum.SwitchToNightTime:
                         AddChatMessage("Switch to night time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Night;
                         LBPeriod.Text = "Night time of";
+                        DorN = false;
                         break;
                     case EventEnum.UpdateDay:
                         // TODO  catch parse exception here
@@ -239,6 +242,22 @@ namespace WerewolfClient
                         _currentTime = int.Parse(tempTime);
                         LBTime.Text = tempTime;
                         UpdateAvatar(wm);
+                        if (DorN)
+                        {
+                            TbChatBox.BackColor = Color.White;
+                            TbChatBox.ForeColor = Color.Black;
+                            TbChatInput.BackColor = Color.White;
+                            TbChatInput.ForeColor = Color.Black;
+                            this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("D" + (_currentTime + 1));
+                        }
+                        else
+                        {
+                            TbChatBox.BackColor = Color.Black;
+                            TbChatBox.ForeColor = Color.White;
+                            TbChatInput.BackColor = Color.Black;
+                            TbChatInput.ForeColor = Color.White;
+                            this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("N" + (_currentTime + 1));
+                        }
                         break;
                     case EventEnum.Vote:
                         if (wm.EventPayloads["Success"] == WerewolfModel.TRUE)
