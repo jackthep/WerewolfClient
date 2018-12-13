@@ -172,6 +172,11 @@
     <None Include="Resources\D28.jpg" />
     <None Include="Resources\D29.jpg" />
     <None Include="Resources\D30.jpg" />
+    <None Include="Resources\DA_Hanging.gif" />
+    <None Include="Resources\DeathGuillotine2.gif" />
+    <None Include="Resources\File_DeathBurned.gif" />
+    <None Include="Resources\DeathBurned.gif" />
+    <None Include="Resources\DeathDrown.gif" />
     <Content Include="Resources\Icon_alpha_werewolf.png" />
     <Content Include="Resources\Icon_aura_seer.png" />
     <Content Include="Resources\Icon_bodyguard.png" />

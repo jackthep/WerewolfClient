@@ -208,6 +208,18 @@
   <data name="D9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DA_Hanging" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DA_Hanging.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeathBurned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeathBurned.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeathDrown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeathDrown.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeathGuillotine2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeathGuillotine2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GunShot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GunShot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

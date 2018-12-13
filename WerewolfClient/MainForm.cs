@@ -64,7 +64,34 @@ namespace WerewolfClient
         {
             btn.Visible = btn.Enabled = state;
         }
+        int RDS = 0;
+        Timer Period = new Timer();
+        public void RandomDeathVote()
+        {
+            Period.Interval = 8000;
+            Period.Tick += new EventHandler(HidePictureBox);
+            pictureBox1.BringToFront();
+            pictureBox1.Show();
+            Period.Start();
+            if (RDS % 3 == 0)
+            {
+                pictureBox1.Image = Properties.Resources.DeathDrown;
+            } else if (RDS % 3 == 1)
+            {
+                pictureBox1.Image = Properties.Resources.DeathBurned;
+            } else if (RDS % 3 == 2)
+            {
+                pictureBox1.Image = Properties.Resources.DeathGuillotine2;
+            }
+            RDS++;
 
+        }
+        private void HidePictureBox(object sender, EventArgs e)
+        {
+            Period.Stop();
+            pictureBox1.SendToBack();
+            pictureBox1.Hide();
+        }
         private void UpdateAvatar(WerewolfModel wm)
         {
             int i = 0;
@@ -226,6 +253,7 @@ namespace WerewolfClient
                         DorN = true;
                         break;
                     case EventEnum.SwitchToNightTime:
+                        RandomDeathVote();
                         AddChatMessage("Switch to night time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Night;
                         LBPeriod.Text = "Night time of";
