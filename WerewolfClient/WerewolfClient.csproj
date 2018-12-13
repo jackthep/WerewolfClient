@@ -111,6 +111,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Resources\GunShot.wav" />
     <Content Include="Resources\Icon_alpha_werewolf.png" />
     <Content Include="Resources\Icon_aura_seer.png" />
     <Content Include="Resources\Icon_bodyguard.png" />

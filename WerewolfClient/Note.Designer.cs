@@ -44,6 +44,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textBox1.Location = new System.Drawing.Point(26, 28);
             this.textBox1.MaximumSize = new System.Drawing.Size(746, 600);
             this.textBox1.Multiline = true;
@@ -53,8 +54,6 @@
             // 
             // Note
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);

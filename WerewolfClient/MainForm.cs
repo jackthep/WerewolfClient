@@ -142,7 +142,8 @@ namespace WerewolfClient
         }
         private void Gunshot()
         {
-            SoundPlayer Bang = new SoundPlayer(@"C:\Users\LENOVO\Source\Repos\WerewolfClient\WerewolfClient\bin\Debug\GunShot.wav");
+            System.IO.Stream Guns = Properties.Resources.GunShot;
+            SoundPlayer Bang = new SoundPlayer(Guns);
             Bang.Play();
         }
         public void Notify(Model m)
