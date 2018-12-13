@@ -972,4 +972,28 @@ The goal of the game varies on what role you have in the game.
 If you are a werewolf, you are trying to kill the village members, and vice versa for village members. 
 There are also certain roles that have their own personal gains to think about.</value>
   </data>
+  <data name="textBox5.Text" xml:space="preserve">
+    <value>The most commonplace role, a simple Villager, spends the game trying to root out who they believe the werewolves (and other villagers) are. While they do not need to lie, the role requires players to keenly sense and point out the flaws or mistakes of their fellow players. Someone is speaking too much? Could mean they're a werewolf. Someone isn't speaking enough? Could mean the same thing. It all depends on the people you're playing with, and how well you know them.</value>
+  </data>
+  <data name="textBox8.Text" xml:space="preserve">
+    <value>The bodyguard is able to guard someone at night. The person they are guarding is told they are being guarded, but not by whom. Should that person be killed during the night for any reason, they survive and the bodyguard dies instead. The bodyguard can choose not to guard anyone at night by using pass in PM, and may guard the same person multiple nights in a row.</value>
+  </data>
+  <data name="textBox9.Text" xml:space="preserve">
+    <value>Also a villager, the Doctor has the ability to heal themselves or another villager when called awake by the Moderator during the night. Should they heal themselves, then will be safe from being killed by the werewolves, or should they want to prove themselves the Doctor or fear the death of a fellow villager, can opt to heal them instead. Again, the strategy here is up to you.</value>
+  </data>
+  <data name="textBox10.Text" xml:space="preserve">
+    <value>The Seer, while first and foremost a villager, has the added ability to "see" who the werewolves are once night falls. When called awake by the Moderator, the Seer can point to any of their fellow players and the Moderator must nod yes or no as to whether or not they are indeed a Werewolf. The Seer can then choose to keep this information a secret during the day, or reveal themselves as the Seer and use the knowledge they gained during the night in their defense or to their advantage during the day. The strategy here is up to you.
+</value>
+  </data>
+  <data name="textBox12.Text" xml:space="preserve">
+    <value>The priest has two abilities, both of which are used during the daytime. Once per game, the priest may give the target their blessing. A blessed nick always counts as being protected, meaning they would need to be killed twice in the same night or lynched in order to die. The person they bless is told they are being blessed, but not by whom. The priest may not bless themselves. Additionally, the priest may consecrate the body of a dead player. If used on a vengeful ghost, that ghost will be unable to kill the following night. Should the priest use this ability, they will be unable to participate in the vote that day, and are not counted towards the villager count in terms of determining win conditions (such as if they had been shot by gunner or given narcolepsy totem).</value>
+  </data>
+  <data name="textBox13.Text" xml:space="preserve">
+    <value>A gunner is given a gun that shoots special silver bullets. They can use the gun during the day. If a wolf role is shot, they die immediately.Every other role has a small chance of dying but will probably just be wounded instead, including non-wolf roles aligned with the wolf team. A wounded person is unable to participate in the vote and will cause the number of wolves vs villagers to be recalculated to determine if the wolf team wins.
+After the first shot, the role gets revealed to all players.</value>
+  </data>
+  <data name="textBox18.Text" xml:space="preserve">
+    <value>The alpha wolf acts like a normal wolf.
+They have a once-per-game ability that they can use the night after a wolf role dies. That night, they can bite which will turn their target into a wolf at the end of the night. An alpha wolf using bite can still kill.</value>
+  </data>
 </root>

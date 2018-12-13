@@ -88,9 +88,10 @@ namespace WerewolfClient
             TBServer.Text = "http://project-ile.net:23416/werewolf/";  
         }
 
+		Guide guide = new Guide;
 		private void button1_Click(object sender, EventArgs e)
 		{
-
+			guide.Show();
 		}
 	}
 }
