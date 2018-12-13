@@ -68,6 +68,7 @@
             // 
             // GBPlayers
             // 
+            this.GBPlayers.BackColor = System.Drawing.Color.Transparent;
             this.GBPlayers.Controls.Add(this.BtnPlayer15);
             this.GBPlayers.Controls.Add(this.BtnPlayer14);
             this.GBPlayers.Controls.Add(this.BtnPlayer13);
@@ -319,6 +320,7 @@
             // 
             // GBChat
             // 
+            this.GBChat.BackColor = System.Drawing.Color.Transparent;
             this.GBChat.Controls.Add(this.TbChatInput);
             this.GBChat.Controls.Add(this.TbChatBox);
             this.GBChat.Location = new System.Drawing.Point(551, 15);
@@ -353,6 +355,7 @@
             // 
             // GBAction
             // 
+            this.GBAction.BackColor = System.Drawing.Color.Transparent;
             this.GBAction.Controls.Add(this.button1);
             this.GBAction.Controls.Add(this.BtnJoin);
             this.GBAction.Controls.Add(this.BtnAction);
@@ -411,6 +414,7 @@
             // 
             // GBStatus
             // 
+            this.GBStatus.BackColor = System.Drawing.SystemColors.Control;
             this.GBStatus.Controls.Add(this.LBTime);
             this.GBStatus.Controls.Add(this.LBDay);
             this.GBStatus.Controls.Add(this.LBPeriod);
