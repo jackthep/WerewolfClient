@@ -93,5 +93,10 @@ namespace WerewolfClient
 		{
 			guide.Show();
 		}
-	}
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+    }
 }

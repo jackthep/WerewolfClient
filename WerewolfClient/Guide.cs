@@ -26,5 +26,15 @@ namespace WerewolfClient
         {
            Hide();
         }
+
+        private void textBox19_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
