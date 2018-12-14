@@ -972,28 +972,319 @@ The goal of the game varies on what role you have in the game.
 If you are a werewolf, you are trying to kill the village members, and vice versa for village members. 
 There are also certain roles that have their own personal gains to think about.</value>
   </data>
+  <data name="pictureBox13.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAAqxJREFUeF7t
+        lMFx2zAQRVWTe0gfKS5V5JIKUkluntwVgPnw0Mu3ACgBICnjjZ5nLC6I/d8zvk0mk8nkgtzv4VNQo18L
+        KsKq0a8FFWHV6DBoh6gej8Fe/vb7zVVHumD3IDU6Bns5FZLUkS7YPUiNjsFeToUkdaQLdg9So2Owl1Mh
+        a3Xsae7fwn0lzW46OgZ7OZWxVseeBouwmt10dD/2RVaNfcLOUBmeekUVGLykdtIrHmcdkNRYFirAU0eq
+        wOAld+ydZV1CTo1noSJIjSMYtkIdbweVQGo8C5VAahyh0DXqeDuoBFLjWagEUuMIha5Rx9tBJdBXOfWq
+        Xf9rkhSyVl3bh03KJen2q5x61WsVE9km/fzrXqkATwpcUmv3Z5PM/LpXKsCTgpfU2mNZkoVPK1uVsVar
+        jmVJEz6tfJliIhTwGf/++P6Qm0J+hdetHQ2Fe0YKXeMsxvHliqGQLdwUQ46CgntSmB5iIZ69oAI8KUQP
+        sQDPXlABnhSih1iAZ2+oCCuF6CEWUGNPjizEiuFL9mIW4zCLqcArZnnkaGetdCa5maXgJUcwi3EoFfP+
+        /ufD9J2dte45i8FLjmSz8I5w1j1nw3c+VEow/PxQk+2xiybDo8WacNZHz4bnTKaYqKbaQgtGwyNXml9L
+        Z5I0nwzPmVmMw5mKOUKttMEWYdVYW2jBo9RKCBWS1EhbaMGj1EoIFZLUSFtowaPUSllmMUdDC9b4M/zx
+        SJqtVSudA1qwRiolSrO1aqVzQAvWSKVEabZWrXQuaNGcVEqUZnPq+vNCS+ekUqI0m1PXnxdaOieVEqXZ
+        nLr+vNDSI9T154WWHqGuPz+0fA913XWgED3UddeBQvRQ110HCtFDXXc9KEwL9frrQqFaqNdfFwrVQr3+
+        daCQNer4ZDKZTCaTyX9ut389WrvEspXPuAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pictureBox11.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAAYhJREFUeF7t
+        00GKwzAQRNGBLHz/Y+Um3ucACTYIhKbKtuTuRIu/eJtJqyV/mL/Xur7x3zRhlmXZqd9+gTAGYQzCGIQx
+        CGMQxiCMQRjjq2HKx49Q+zKlhVEfF0ndGYkwBmGMsDDq8S11rjibqfccUWdHEMYgjBESJuKBvefqu1pq
+        vtdwGPWgQs2fiTirqPkrCGMQxggLo2Z6RO+5u68rTHtpoWZ7Zey6s5MwBmEMwhiEMS6HibjsSPbe3v2E
+        MaYJk2X03YQxpgnzfDx26rc7Rt9NGIMwxh6mPZytXF5i1EHU39SOTNudhBG2O/lXMghjEMaYJkyW0XcT
+        xpgmTPbe3v2Xw2zaSwo12ytj152dhDEIYxDG6ApTi7i8Fr3n7j7CGIQxwsLU1PyZiLOKmr+CMAZhjOEw
+        tYgH9Z6r72qp+V4hYTbqgS11rjibqfccUWdHEMYgjBEWpqUeHUndGSktjKI+8Cq1LxNhDMIYXw1z5FcB
+        HMIYhDEIYxDGIIxBGIMwBmGMacLMZX1/AD/LQjILQo30AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBox12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAAitJREFUeF7t
+        mT1OAzEQhXMjjsI50tHSISokmhRI0IBokCjoOA9nCTJ5Xs1O3sb2st54N++TviJrjz3zEOEnGyGEEEII
+        IYQQ4uzc7972wZu7XbYoXS9s6FxxxHpgQ0ZvH57/9M8fXz6Onllx9LJhg0UVzMTi6OXBhqklrlwGbIBa
+        4splwAYIvn5+0+el2h/5uHIZ+EFqiivbhjU+halfCHF9u7Cmp1DBjBTXtwtrOnp1fd2T7WGW1KENSxuh
+        sWajJQNaS+rQhiU8s84LazLqB/OymiDba2U1aMey/zGG14fHM8GajLKhrKwmyPZaWQ3asXRrCqaPX1cw
+        wK+3E0w0NdjT+9fRs2CqLhj/fYF2LL194fXh8UzYy4fMGZBZUod2LN0bL9bbC2YO0Y5FwQTRjsWvnyeY
+        1N80qfVS/b9A0Y6lW2vux/UU5gaKdizd2iKD2W63Pf26ghkIJle0Y/Hr8wYTsU142VfdB+K1e8P7ydDH
+        Krie4fcpGOD3tRcMk4VhZTVMXM/w+y46mBhAjvPCmmeyMKx279DHubhyCB9Ean9dfPNDsjCsdu+qgmGD
+        WFkYVlbjxZVD+FBS++vCBjjlmECiuHIIH0pqf13YAKe8mGAsbJj/iqNz8KGU1NYl/GKX+7dOjuF9C0fn
+        4EMpqZ0HNuQYcVwuPpTS+vqwIceI43LxoZTWzwMbNJr6dsMRpfhQxp5THzZ0SpSuGzZ4SpQKIYQQQggh
+        hBBCrJfN5hddN4rhpzlMVgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pictureBox14.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAAXVJREFUeF7t
+        1ktuwjAUheFIbLTbYt7ldC2d0FkHKY5OJHBPLLjJTYz4P+kMwMb3MWIAAAAAAAAAgDcyfg1jZlTmtbhB
+        MqJyr8ENkBmV7Z9rPjMq2z/XfGZU1jqfz2OJPt6JnoW55jOjslZ0+NZZmGs+MyprRYdvnYW4xveIyv8T
+        Hb519jTX8J5RG3eiw7fOHlY3+H39as/U9dXWJDp86+whdVMlrvnMuB7UHoupo/aOW0xRN+Waz0xdX21N
+        osO3zlb5+fwY94jKLZoHjEbPbMcNkRGVW+SGfSZ6ZjtuiN/LZcrpdJri7txmvjf/zt1RuZC04VvcECzm
+        yg3BYq7cEBlRuRAWs4DFLDhkMYUbZMuoTFjXi5n/vS59bkVlwl5iMXXc3ToqE3bYYgo3UJ0jllJ0v5hI
+        9Pwqhy6mcIOtiZ5d7fDFFG7ASPTcJrpYTOEGfSZ6ZjPdLGbmhm5FP9tcd4uZuSXcRtfSdLsYAAAAAAAA
+        AMDOhuEPmYfFwlpX3hcAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="textBox5.Text" xml:space="preserve">
     <value>The most commonplace role, a simple Villager, spends the game trying to root out who they believe the werewolves (and other villagers) are. While they do not need to lie, the role requires players to keenly sense and point out the flaws or mistakes of their fellow players. Someone is speaking too much? Could mean they're a werewolf. Someone isn't speaking enough? Could mean the same thing. It all depends on the people you're playing with, and how well you know them.</value>
+  </data>
+  <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAAW5JREFUeF7t
+        k0Fqw0AQBHXWwRd/KflH/uNrnuAPJuTuYOiAWEpkZbTaXtEFddPO1Bg8hRBCCCGEEEIIIYRz83P/eLyi
+        np8TOniLGnMO6MA91PhxoaP2UOPHg45podaNAx3RQq0bAzqgpVrrD8W3VGu9ofAj1HpfKPoItd4Xij5C
+        rfeFoo9Q6/2Y5/nhoHJ8oMgeKscHiuyhcnwo//MUXVq+KaU3peUb5fhQBv5Zc8x/bpmhHB8o8umWo9bc
+        MkM5PlBkD5XjA0X2UDk+UGQPleMDRfZQOT5QZI3fn28ofVujcnygyB4qxweK7KFyfKDIHirHD4pdenu/
+        viTNWqr1vlD0Ujq6Rpq1VOt9oWiSjifpLan1vlD0mvRDLKU3a2q9PxRPfl0uKH1Lat040BEk/ShP6VtS
+        68aBjmih1o0DHdFCrRsPOmYPNX5c6Kg91PhxoaP2UOPPAx1Zo56fFzq6Rj0PIYQQQgghhBBCGJtp+gXy
+        QXEId/aAfQAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="textBox8.Text" xml:space="preserve">
     <value>The bodyguard is able to guard someone at night. The person they are guarding is told they are being guarded, but not by whom. Should that person be killed during the night for any reason, they survive and the bodyguard dies instead. The bodyguard can choose not to guard anyone at night by using pass in PM, and may guard the same person multiple nights in a row.</value>
   </data>
+  <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAAMdJREFUeF7t
+        0CEOwgAQRUEMp+D+x6MSZFEo9jUh0CaQEWN/dt/pfl1WXgkThAnCBGGCMEGYcGiY2/nykWlzL8IEYYIw
+        QZggTBAmCBOECcIEYYIwQZggTBAmCBOECcIEYYIwQZiwGWY67p9MPz8JE4QJwgRhgjBBmCBMECYIE4QJ
+        wgRhgjBhM8y3Tce9Y9rcizBBmCBMECYIE4QJwgRhgjBBmCBMECYIE4QJwgRhgjBBmCBMECYcGuaXCBOE
+        CcIEYYIwQZjRsj4AaLsy1kNzkVAAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="textBox9.Text" xml:space="preserve">
     <value>Also a villager, the Doctor has the ability to heal themselves or another villager when called awake by the Moderator during the night. Should they heal themselves, then will be safe from being killed by the werewolves, or should they want to prove themselves the Doctor or fear the death of a fellow villager, can opt to heal them instead. Again, the strategy here is up to you.</value>
+  </data>
+  <data name="pictureBox17.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAAcxJREFUeF7t
+        kEFqA0EMBPcNeUX+T56Qr+TqY3J0MPQEM5QJu5Y00loFdfJ4u1tb0zRN8wK8f35dj6i/nxMavEd95nzQ
+        2D3qM7WhYR4qrg40wkPF1YFGeKi4/FD5o35fLn/S7/cqPi9U+qinOAyVfdb7w8zS+6Eq5YAKPisdZEjv
+        h6q0DiplKR1klv43VM14qIyldIhZ+t9QNeOhMpbSIWbpf0PVjINKeEtHuUlvZ1XbHwr3lo5yk97OqrY/
+        FB4hHWZI74eq7Q+FR0gHGdL7oWr7QaGR0kGG9H5WM+yhsEjpIEN6P6sZ9lDYKvswD+zDPLAP8499GAM1
+        wx4Kq6Rm2ENhldQMeyiskpphD4VVUjPsobBKaoY9FFZJzbCHwiqpGfZQWCU1wx4Kq6Rm+EGhmVVtfyg8
+        s6rtD4VnVrX9ofDMqnYcVCKTqrkWKrZKVcoBFVylKuWACq5SlXJBRSNUfF6odISKzw+V91BxdaARHiqu
+        Dj8fb9dZGrZH+qbi6kAjaOwe6ZuKqwONoLF7pG8qLj9UPkLF54VKR6j4HFDBTKpmPFQmk6oZD5XJpGrG
+        Q2UyqZrxUJlMqmY8VCaTqhkPlcmkajZN0zRN07wQ2/YLtPweNiUru30AAAAASUVORK5CYII=
+</value>
   </data>
   <data name="textBox10.Text" xml:space="preserve">
     <value>The Seer, while first and foremost a villager, has the added ability to "see" who the werewolves are once night falls. When called awake by the Moderator, the Seer can point to any of their fellow players and the Moderator must nod yes or no as to whether or not they are indeed a Werewolf. The Seer can then choose to keep this information a secret during the day, or reveal themselves as the Seer and use the knowledge they gained during the night in their defense or to their advantage during the day. The strategy here is up to you.
 </value>
   </data>
+  <data name="pictureBox16.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAA4JJREFUeF7t
+        mS9vVFEQxZs8h8QhcUgcHwWLxWKxOIJFIFAYUAgEGCzfgG+ArSK0CZuUns38Xk6n8962sLvsnznJT9z7
+        5t45c7p9bdOTVqvVarWOU4+Hlxf/QlxzeKqGfTK8Kcl1z4bPhxEMA/mwT4f319Y+/CoUDrAX7fZHGM9B
+        5DV1N6GDmWCvg/Ghq8F9OD33da79dXo64ncK+lAb7XdXHUxSNsp6DmohD+7BSL6mLt8hwtJuKA/Leg4f
+        RhxMMG4mD/ti+L4k1/h6Dg3t+n1+fiUYVJ3lWzNsbl9upoMxuZkO5lIYIAyBGda8A9jPz1eRz3ooDn0c
+        zuAzbG9eHcyEMEBjkfcY8PXwc8TrqXk+fBvhDqFnr4YfIxpU304ZzuZ7BeuwvXnlEETew9xRBJOHd7IZ
+        H9Cfvb2zGFFYeXjIQemsi2Co9z5+xokx1q+phsKHF9S6Ye0fZDA0oLGbyQb5cc2+0PCcreAM+DOd9zUv
+        39zf6zwUEWOsXzSgMabcGGuGc8MdzCUM54YPPpgKzGD03b3FEn5qAHW5XvCugTys187dk/fwGGOsX7mR
+        k80wnH8CeAY5KA+iqq/gbOWFNbUxxvpFAzcBmKGmgwkwQ81RBZMbYcDhGQMSkPDBhd8lPER6ec+qX1Xv
+        93NWxBjrlzf3hiLv8fL1IRQOL2E+LX7fXDAZ/szwu4BgWHMmxli/3JjoYEJuTHQwITcm3IyHJHivOBrg
+        w4PFCHtTMGAeVOCBZ96b+3NtjLF+0QDcqBsTORRC6GBSKIRwkMEgN5ibA+8KHywPoHMfHy1G/L6q1u/3
+        2vwsf0HC9uZVmav2xFQoQp+KvAf5Lu35p8n3RdUHT2F786pCqPZEZRg6mGQYDi4YhAE34cNk9M7h9w/B
+        mamzfr/C8OGnQnDC5v9VNYzgJSwq81PorAegPQ/N6wRrEZZ2Qx3MhDqYFWIQXpIYrwbIeJ2G92C09n+9
+        5DPRfnfVwayQDziHD88Z4YEJ1fpziHb7I4znIDJHF8zZp7sX4vzrwxENlwe+KTp79uX+CHdGu/1RBzOh
+        DiaJQCo0iA9X1VzBapdnq5og2u+uKtNwNMFUBufIw+WgtIblntVeW9+AsLl9VWbm6GDmsCDK585tagvC
+        5vZVmVnJbYa9TW1B2Ny+KjMr8WHnBv7LMJywuX1VZlbSwUxwDMG0Wq1Wq9Vq/TednPwBXn/vDLMrjIcA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAAM5JREFUeF7t
+        01FKw0AARdFspT8uy110Ya7ILRQEfytCBkLoLQSpTuUceH9JmLmQBQAAAJjF2+vp+r3388ufbD3GfEaY
+        z4/Lr0+YmDCxpwgz/vlHT5iYMDFhYsLEhIn92zDbi43LHdn+3fUY8xEmCBOECffCbC9xZLe+NbZ/bj3G
+        fIQJwoR7YW5te7FxuSPbv7seYz7CBGGCMEGYIEwQJggThAnCBGHC0TA/nTAxYWLCxISJCRMTJiZMTJiY
+        MDFhYsLEhIk9TRgAAACArWX5AifmMJPaj8V6AAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="textBox12.Text" xml:space="preserve">
     <value>The priest has two abilities, both of which are used during the daytime. Once per game, the priest may give the target their blessing. A blessed nick always counts as being protected, meaning they would need to be killed twice in the same night or lynched in order to die. The person they bless is told they are being blessed, but not by whom. The priest may not bless themselves. Additionally, the priest may consecrate the body of a dead player. If used on a vengeful ghost, that ghost will be unable to kill the following night. Should the priest use this ability, they will be unable to participate in the vote that day, and are not counted towards the villager count in terms of determining win conditions (such as if they had been shot by gunner or given narcolepsy totem).</value>
+  </data>
+  <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAAYlJREFUeF7t
+        kMFNBEEMBDcH4kA8iIH3SWRxsZAEmQLTTC8+j70s4nOyu6TW2iPvo2sTQogifCRpTyRlpD0Qcb1eEe4u
+        LUF5L+bpckHm3hKJSZCYBIlJkJgEiUmQmASJSZCYBIlJkJiEUMxB2oDCErOCwl7M28vDTfj+lTagsMSs
+        oLDErKCwxKygsMSsoLDErKCwxKygsMSsoLDErKCwxKzY0mfSBhR+f308DO/GD12QmASJSZCYhF0MZ+4S
+        M0Vw5i4xUwRn7hIzRXDmLjFTBGfuEjNFcOYuMVMEZ+4SE4jw4d34oQt/FROlJCgXybDh3fghoKScvXQk
+        hDF3xO72vRQsuedAjM+A35LcFJaYH24KnxBj8XtJvACfiOy9FF5EFE/0Vg6Uf3bhe5IWoOwJMe1AcS/G
+        Zt60Q2ISJCZBYhLOimkn6FcxI7wzKQ+KRjJseGdSnr1sJCSK+ac0/xEzUhpfNhRiY25LY4sikQwbc1se
+        WzaUYWNu22BLIxLzjS19Ju2IJEQR4m7Ytk90LeJGm1+ICgAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="textBox13.Text" xml:space="preserve">
     <value>A gunner is given a gun that shoots special silver bullets. They can use the gun during the day. If a wolf role is shot, they die immediately.Every other role has a small chance of dying but will probably just be wounded instead, including non-wolf roles aligned with the wolf team. A wounded person is unable to participate in the vote and will cause the number of wolves vs villagers to be recalculated to determine if the wolf team wins.
 After the first shot, the role gets revealed to all players.</value>
   </data>
+  <data name="pictureBox10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAABGdBTUEAALGPC/xhBQAABI5JREFUeF7t
+        2MGOIzcMRdFezT9nEeQ7sk7+M0EFbwBmfG2zLJVko+8B3qpEirAIDKa/JEmSJEmSJEmSJEmSJEmSJEmS
+        JEmSJEmSJEmSJEmSJEnS6/786+9/VibX6lPRo16ZXKtPRY96ZXKtPhU96pXJtfo09Jg7knH07ujxdiTj
+        6N3R4+1IxtG7o8fbkYyjd0GP1EnKh1HvTlKu1egxOkn5MOrdScq1Gj1GJykfRr07SblWo8foJOXDqHcn
+        Kddq9BidpHwY9e4k5VqNHqOTlA+j3p2kXKvQI1ByfBma4VFSpqvRj0/J8WVohkdJma5GP35Njm1Hsx35
+        8ePHf8kxXY0eoSbHtqPZjrgwi9Ej1OTYdjTbERdmMXqEmhzbjmY74sIsRo9Qk2Pb0WxHXJjF6BFqcmw7
+        mu2IC7MYPUJNjm1Hs9X89vsfLyXtL0czX5lcOx9dVpNj29FsNbQMnaT95WjmK5Nr56PLanJsO5qthpah
+        k7SfjmbckYwzD11Sk2Pb0Ww1tAydpP10NOOOZJx56JKaHNuOZquhZegk7aejGXck48xDl9Tk2HY0Ww0t
+        QydpPx3NuCMZZx66pCbHtqPZamgZjqT8i74dyefpaMYdyTjz0CU1ObYdzVZDy3Ak5S7MLHRJTY5tR7Md
+        +fmHO1qGkeTap2imTlI+jHp3kvLzqFlNjm1Hsx1xYbj/s6T8PGpWk2Pb0WxHXBju/ywpP4+a1eTYdjTb
+        EReG+z9Lys+jZjU5th3NdsSF4f7PkvLzqFlNjm1Hsx1xYbj/s6T8PGpGyfFlaIZHSdkNWoYj+fzyf7dp
+        hkdJ2TI0AyXH+6gJJceXoRkeJWU3aBmO5LML8ypq1knKh1HvTlJ+Fy3DmaTNjZ//FNJMR3JsO5qtJsfO
+        o2adpHwY9e4k5XfREpxJ2txwYaBZJykfRr07SfldtARnkjY3XBho1knKh1HvTlJ+Fy3BmaTNDRcGmnWS
+        8mHUu5OU30VLcCZpc8OFgWadpHwY9e4k5XfREpxJ2tz49gtzD12yIxnnZbQMR/L56fdf0Yw1ObYdzVaT
+        Y/PQJTuScV5Gy3Akn12Y2eiyK5Nrp6FlGAnNXJNrt6PZanJsPrrsyuTaaejRR0Iz1+Ta7Wi2mhybjy67
+        Mrl2Gnr0kdDMNbl2O5qtJsfmo8uuTK6dhh59JDRzTa7djmarybH56LIrk2unoUcfCc1ck2u3o9lqcmw+
+        uuzK5Npp6NFHQjPX5NrtaLaaHFMXLcORfL773T/cfVO0DEfy2YXR/9EydOLCfFO0DJ24MN8ULUMnzxbm
+        1+S6ZWgGSo6ri5ahExfmm6Jl6IR+/EfJdcvQDJQcVxctQyf04z9KrluGZqDkuFahR+gk5cOodycp12r0
+        GJ2kfBj17iTlWo0eo5OUD6PenaRcq9FjdJLyYdS7k5RrNXqMTlI+jHp3knKtRo/RScqHUe9OUq53QY+0
+        IxlH744eb0cyjt4dPd6OZBy9O3q8Hck4+jT0mFcm1+pT0aNemVyrT0WPemVyrT4VPeqVybWSJEmSJEmS
+        JEmSJEmSJEmSJEmSJEkf7+vrX4iKXfQE/Q95AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBox15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAABGdBTUEAALGPC/xhBQAAAVpJREFUeF7t
+        kMuKwzAQBPO7+X/CHrP0CoGjtOxRHts+VEERLEtReS4AAAAAAAAAAAAAADDnfnJj3H9ut78I/Z7BbZMC
+        UzwFJR17FJhiGvbfuhYFpniI6UHj2reddSgwxVNQj3Lr33CvQYEpbJTce/cpj+5XYAob1T16/46VuxWY
+        wkZtrexZtXqvAlPYqNHqvoordyowhY1yruyduXqfAlPYqJmr+7e+cpcCU9ioPd2Z6/X64Pj+1XsUmMJG
+        Hbk9Nw6l6/auqHMKTGGjKuqsG8jWd/9fgSlsVMX+8dXnVdXWEjPYqIpHgxifV1VbS8xgoyr2Dz/Sna2o
+        tpaYwUZVnA1gtr6q2lpiBhtVcTaA2fqqamuJGWxU1XEIo+5MVbW1xAw2akU3EOn2rqi2lpjBRq366aFI
+        tbXEDDbqDKqtJWawUWdQbS0xQw84qwAAAAAAAAAAAAAAAPApLpdfM+yDrPw1Up8AAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="textBox18.Text" xml:space="preserve">
     <value>The alpha wolf acts like a normal wolf.
 They have a once-per-game ability that they can use the night after a wolf role dies. That night, they can bite which will turn their target into a wolf at the end of the night. An alpha wolf using bite can still kill.</value>
+  </data>
+  <data name="pictureBox18.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAr5SURBVHhe7Zw9rxzHEUUZMmTIkD+BgQExEBRZCcGIckQoEeBAIAwoceiIf9x+td4e1Nw9013T
+        M7uzPa8ucKKtulN1u6AvCHzzhPpvg7OJdiRSC6KwPGcT7UikFkRhec4m2pFILYjC8pxNtCORWhCF5Tmb
+        aEcitSAKy3M20Y7EqxOF0MPZRDv2cDrRkj2cTbRjD6cTLdnD2UQ79nA60ZI9nE20Yw+nEy3Zw9lEO/Zw
+        OtGSPZxNtGMPpxMt2cPZRDv2cDrRkj2cTbRjD6cTLbkHo4l22IPTiZbcg9FEO+zB6XRZ7O3bt8j79+8R
+        rSs+AY4WzXSD7kcZGFpXcF6nEwZUoJAMrSs+AY4WzXSD7kcZGFpXcF6nEwZUoJAMrSs+AY4WzXSD7kcZ
+        GFpXcF6nEwZUoJAMrSs+AY4WzXSD7kcZGFpXcF6nEwZUoJAMrSs+AY4WzXSD7kcZGFpXcF6nEwZUoJAM
+        rSs+AY4WzXSD7kcZGFpXcF7Dyy8z8e7dO4RCMrSOPBssiWrXsCSqXUT3owwMrSuQ55XhREvg0gaFZGgd
+        eTZYEtWuYUlUu4juRxkYWlcgzyvDiZbApQ0KydA68mywJKpdw5KodhHdjzIwtK5AnleGEy2BSxsUkqF1
+        5NlgSVS7hiVR7SK6H2VgaF2BPK8MJ1oieRzDiZZIHsdwoiWSxzGcaInkcTytaNhu/vbxYxXq2cK3b99W
+        QR5boB0J6u3kcNFQ3VBYHurZAh1FDfLYAu1IUG8nh4uG6obC8lDPFugoapDHFmhHgno7OVw0VDcUlod6
+        tkBHUYM8tkA7EtTbyeGiobqhsDzUswU6ihrksQXakaDeTg4XDdUNheWhni3QUdQgjy3QjgT1dnK4aKhu
+        NKh/fPlShTwifP78+QL9Zvz48QP5/v37BeqJQDt4dP8CeXVyuGiobjQoCtVDHhHyYI4TDdWNBkWhesgj
+        Qh7McaKhutGgKFQPeUTIgzlONNQNFAKhAdKjRSjf/fr1K9L6h1jyjLC1X/cvUFYeP3uDw0VD3UBLEhoU
+        hRqhfJeOxciDOU401A20JKFBUagRynfpWIw8mONEQ91ASxIaFIUaoXyXjsXIg3m8aJgJWspDoRgU4j2h
+        2WuQxyPQnChTD80uPFw0xAQt4dEAChTWPaHZa5DHI9CcKFMPzS48XDTEBC3h0QAKFNY9odlrkMcj0Jwo
+        Uw/NLjxcNMQELeHRAAoU1j2h2WuQxyPQnChTD80u3E30MRyyhi6sgdA3DK17FDSLh3r2gL5laJ3mSZnX
+        oG9c2SwyxSFq6IIaAH3D0LpHQbN4qGcP6FuG1mmelHkN+saVzSJTHKKGLqgB0DciqM9e0Lc81BOBvCKo
+        j+ZJmdegb1zZLDLFIWroghoAfSOC+uwFfctDPRHIK4L6aJ6UeQ36xpXNIlMcooYuqAHQNyKoz17QtzzU
+        E4G8IqiP5kmZ16BvXNksMsUhauiCGgB9I4L67AV9y0M9EcgrgvponpR5DfrGldWaGdDHetAFNQD9bhT1
+        2Qv6lod6IpBXBPXRPCnzHuDbTc0ayLQHXVAD0O9GUZ+9oG95qCcCeUVQH82TMu8Bvt3UrIFMI/z9l19m
+        6IIagPLhwwfk06dPM3TeAnnuQdTfz+LR+WlHgzw9mqfmTW8SAWZuatZAphF0AV2QQvBQiIYGrvMWyHMP
+        ov5+Fo/OTzsa5OnRPDVvepMIMHNTswYyjaAL6IIUgodCNDRwnbdAnnsQ9fezeHR+2tEgT4/mqXnTm0SA
+        mZuaNZBpBF1AF6QQPBSioYHrvAXy3IOov5/Fo/PTjgZ5ejRPzZveJALM3NSsgUwj6AK6IIXgoRANDVzn
+        LZDnHkT9/SwenZ92NMjTo3lq3vQmEWDmpmYNZBpBF9AFKQQPhWho4DpvgTz3IOrvZ/Ho/LSjQZ4ezVPz
+        pjeJADM3NWsg0whffv11hi5IIXg+vngQK/5QwAvkvYWWr/82ofPTjgZ5ezRPzZveJALM3NSsgUwj6AK6
+        IIXgoRANDVznVch7Cy1f/21C56cdDfL2aJ6aN71JBJi5qVkDmXp+/uknRP8SqQtSCB4K0dDAdV6FvLfQ
+        8vXfJnR+2tEgb8/vv/02Q/OmNzHoDT0wc1OzBjL10FCGLpAH8390ftrRIG9PHkwnOq9CPVto+fpvE9TT
+        Qx5MJzqvQj1baPn6bxPU00MeTCc6r0I9W2j5+m8T1NNDHkwnOq9CPVto+fpvE9TTw7AHo/UFrbvXwTya
+        sh/9dk/+/eefMzRPzdu/hUfrFOhpatZAph6tL2idLkihjEDZj367J3kwEMoIlP3ot3uSBwOhjEDZj367
+        J3kwEMoIlP3ot3uSBwOhjEDZj367J8MfjNYpWq8LUigjQLt6qGcNehiFf/3xxwzNU/Om2TxaX4DapmYN
+        ZGponaL1uiCFNQK0q4d61kDHYgxzMBWK6LebQXRBCmsEaFcP9dTQw/jnt2+I/oc6zVPzptmuFNFvRFPU
+        RBTRbzcL6IIU3gjQrh7qqZEHc0UX0AUpvBGgXT3UUyMP5oouoAtSeCNAu3qop0YezBVdQBek8EaAdvVQ
+        T408mCu6gC5I4Y0A7eqhnhpnPJiWtP4CLe2hHoNCfSZoZoJ6CT0YPYyC+lOmHq13tLS2fnWD1l+gJTzU
+        Y1CozwTNTFAvcYaDiepiqP/jzhKlvgWFOhKtPf7z118z9KHpWAyfEaF/i1rC9Txclw/TcRClvgWFPBKt
+        PfJg4DiIUt+CQh6J1h55MHAcRKlvQSGPRGuPPBg4DqLUt6CQR6K1Rx4MHAdR6ltQyCPR2uM1HIz/yA10
+        HAbUqqgGQx6J1h7Rf41WfEZXVLPf6VgMrQM2i0wn6FgMqFVRDYY8Eq098mDgWAyoVVENhjwSrT3yYOBY
+        DKhVUQ2GPBKtPV79wVRoiXqah0eP8Izo3IXWIdAjG1r3QkvUE2GzyDRCS9STBwPHYmjdCy1RT4TNItMI
+        LVFPHgwci6F1L7REPRE2i0wjtEQ9eTBwLIbWvdAS9UTYLDI11mrWr4exhPbR4zwjOnehdTCUgbHDAanI
+        w9gsMjXWatZPoRDaR4/zjOjchTyYuGb9FAqhffQ4z4jOXciDiWvWT6EQ2keP84zo3IU8mLhm/RQKoX30
+        OM+Izl3Ig4lr1k+hENpHj/OM6NyF13AwvaJhJigUA2pVs9/psSKoz1rI00M9C6io5uYPN6QaYTjREhN0
+        LAbUqma/02NFUJ+1kKeHehZQUU0eDB2LAbWq2e/0WBHUZy3k6aGeBVRUkwdDx2JArWr2Oz1WBPVZC3l6
+        qGcBFdWc6mBo2C2sFXlM0GMaVLsG8jSoVugVefVwuGioLawVeUzQoxpUuwbyNKhW6BV59XC4aKgtrBV5
+        TNCjGlS7BvI0qFboFXn1cLhoqC2sFXlM0KMaVLsG8jSoVugVefVwuGgo42hd5qBH9ZS6KOThcbVHy8/i
+        OVw0lHG0LnPQo3pKXRTy8Ljao+Vn8RwuGso4Wpc56FE9pS4KeXhc7dHys3gOFw1lHK3LHPSonlIXhTw8
+        rvZo+Vk8qQVRWBPwwCFW9KUGEz3iRB5MSkWPOJEHk1LRI07kwaRU9IgTeTApFT3iRB5Makn0mNPD90Ke
+        V1KDix4Vj2AN5HklNbjoUSfoGGqQh5AaXPSoE3QUNchDSA0uetQJOooa5CGkBhc96gQdRQ3yEFKDix51
+        go6iBnkIqcFFjzpBR1GDPITUSUWPvYbUKxMdwRpSr0x0BGtIvTLREawhlUqlUqlUKjWE3rz5H/fWSfAO
+        qyFJAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBox19.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAPMSURBVHhe7ZjNcdswFIR98vjoi+8uwTO+uD7XkQ7SQTpIB+kgHeSqEBgtslgufiSScCRyZ74D
+        iYe37+04suKHFXUSRkl9R3p36auGU9+R3l36quHUd6T3TG4YZZSctzJMzlwZJeetDJMzV0bJeSvD5MxL
+        bCXnVWKYnHmJreS8SgzT6enpKfH6+prg96FOWKqsH3s1ZhimzLwxFLNUWT/2aswwTJl5YyhmqbJ+7NWY
+        YXOloZ6fnxM8FL/negFyZwzkzjKvzhk2UzJh886hGMidMZA7y7w6Z9hManRrbCZndkusKmcw45vgakrg
+        zvczrqYEewJXZ1gs13TGlcNFcGcXwfQOyPUIpjccvsu4WsNiuaYzfpzh5VoL6hKfn5+Jn3KmqA/8A67e
+        sFiu6YwjmAn8yLrBeDmF7wZ0CXcHtM7hH8BM8GEPYrFmTWG452CyZjDSMAJu2B7UA7jaXi4I6GpljfYe
+        TLqIhoqGQf+LzQa8FPa+tBfuhFnwDnO6HQLsNdFUKnbNArVgFNT0cMldrQVHMFILtggmFrgGAP9mf53B
+        AP9rMJhTP2sc1GOmeKAX0DQQvnQFNBjAfxP5+PiIoG9A62u4eu6F/uyp9ZgTc/Muuif1nike6AVudgRD
+        cLMjGIKbtYJ5e3tLFP60OLtTQmu1D/qzJ9cHhgWDT/lbCwZz8y66J/WeKR7oBW7WCsaBvsDVOLT2mj5H
+        MAU2DQbvA2h6STDXEvzc+x5O7+8RzIm5eZfKnjO1LhzBFC4cwZjiCAzw688NtRbq7WoYhBH4PdUH9Ne0
+        9izsOhMfclF6hgE+zNyAa8G+AVcTSIG8vCQQjH7oSs8gfYf3mUpF6fkIJi9Kz3sPRpUuwcAZuaGXwL1r
+        Hn+m9wrqa/NOqErvrbIPKPNBlXBDr4l6nB4fI/jpYHS2yg5Xq9Y0g4feAvU4gjmjHl8RTLEpvYfSOx56
+        C9QDX94cNBcUnwu7gKayC4VmUHrHQ2+BerhAAM0FxefCLqApdwmo0pka8hJrwX74Vovnwm8fFZ8pTblL
+        QJXO9hZMSfEcYTA4c4stBb0DGgIHgy92VF9ST01ST3E8P4KZK57vLZiauJENZAKKz25BgJoSnfVQemeC
+        AZspM9p7MM7AUVJW17FoolFbk6tXFss1dZSU1TWWzWjU1uTqlcVaq1nswcsWFo5U6pZorT5RazWLPSoL
+        Z1TqlmitPquLB2sGY97frbJFj2D+KVv0CCZXWjQsX4NrJ+5e2cIukIDWTdy9soVdKAGtm7h7ZQu7UAJa
+        N7EruQCY3cqFwRw6dBN6ePgLVlo1oF/Tb+sAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAASUSURBVHhe7VixcdwwEFSowIFyJYodKZQ7cAfuwB24AY06cAfuwJW4EtcgYwEssLg/0nw+yKfm
+        sZ4dksBxb3EAgZfvBgYGBgYGBgYGBpbiXdgbqr2F/qbY0rhqb6HfFdassje8HOTh4Jkke8PLQR4Onkmy
+        N7wc5OHgmVT2gqetPBze7+/vI5+eniL5DKJfeC7Ku6pp8+SYw2HSsJhea768q5pHL0wx/fDwEEnDfAY1
+        LpPw+kCiaVdNm8fEXh3FzJRhxzRIeH0g0bSr5ocpzMF4NXhmKh8zP0vbFL8GfglcGo8Y6nv9LXeHZ6KS
+        g8SAvX4lCvM98Efgt9w2R2iyOF5/y93hmajkKlhSGAwQhXnLVy9GSV3k8Ppb7g7PRKWugLkB/Kz3r6+v
+        kbOrBlroh/aSIl4BrQEMEMsbpn8HBtMcqGWMRywGJ0WbivXawVgY5EJO6EmRhbujNQBTMIorBhs+C28w
+        YIzHp4D4SwqDTw/va+6sJdwVNTEMYeb/BmLmcA1t3kCm2OgFejFTjPk1t/+JbY6U6FMmZgxGMFOBxWyO
+        0wEsYdFf+K6NpY/oCd7os+puhpSACWEA/BUYvnVrWMm+OS6J1xgbG/cbeKGvqxUGs0I6K0bJvjkuidcY
+        GxtXi3raoTBJGL83sGniBDAnkLev8G+Zl5cXNXcSZ2lj9F1oUVdjYlz20ZxUIDy3Pwa7IQlCHKcAE+bT
+        J5oJS9ca3b0w+HzgBZ6sz80LoysGCTlLfw5QmOCh+NHC7LJiQH67Wpiw6Vmjz8/Pkc5/CZzEKrXfvgct
+        6uo7MRYbrxaGPum76nRDEmQCErOBDS+bsUaVRSPTiyG1/6z3WBR4gjfrt+p0QxLUJFyiNOOsGGXRyPRi
+        SO0/6z1dMfzk1XPV6YYkyIJoEpjIv2U8s2sIXa99inFvQVFAbsBznjuiJuE3yzYYyWY802sIXa99io/h
+        X1kt9GM9g2zriCRoiwJyhsLVM72Gqu/1k+WXLq44osWLamxfmFY43cNIpmd+DYt2oNuP/SNssFgpcbXg
+        j0c9qsGqAegz27rAE073MJFnyhvEGhbtQLefOflDDleejlw1VQPQZ7Z1gSeY2mCMv2dqnDugpVQdT6vs
+        JzwZGcvCtJ+SwmvrimSKxuy+E2gHs5ZWK64M5MRkeLnxjHb6S+27oRaFBtVcoA7mElqtuFrwByJy8qq5
+        8YyVg+uOhakGMDPtbAHlWQdzCa1WKYy/YoB0j/b2JGL/JqhJTo9uoDzrYC6h1YqfElcKV23NC6T70yOa
+        /ZvAJrLJartsgDqwNWx0tRBYNfVzARXa7vV3xVyCemRiRsEc7w32HFInUguBIiFPu3I8zPV1wXxyFAWz
+        yD0gx3uDPYfUidTC4P5DFIYFwVWWvDfYc0idSN3XcI98mJDa7mGubzMwadrsOIOtEXfAIPo8/ieGSM8o
+        iq6kNmZ3WCOWFk3/0sI4fR68OHJ3eCaUFk3/LRRmDcrAvcE7fWtwybtXA01PFsa03QzKoEdhWpRBj8Kc
+        ohTBI/sReGsog58pCnhzKIMfhfFhC0EODAwMDAwMDAwM9MLd3T8g8QP4JTVGOAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pictureBox21.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAQZSURBVHhe7ZjBcdswEEU144uPHldgd+Cjq0gH6SAd5OZjOkgH6SAdpIN0kD4UgOICfz8+REgg
+        aVvkn3kHAov9u2uaonSYUUdiLbHvmt5Neq/i2HdN7ya9V3Hsu6Z3IVUMs5aUN7OalDmzlpQ3s5qUObOW
+        lDezmpQ5s5aUN7OalHmNpaS8aqym4/39feLp6SmB6zGO6JXLh14TNawmZz5RFNIrlw+9JmpYTc58oiik
+        Vy4fek3UsLhSUQ8PDwksCtcxHkCpfQRV7KNXYw2LKZmgeWNRBkrtI6hiH70aa1hMbPTZWEzK7DMxq5SB
+        4BuhYhRfK6hYBfs2e3dLJRVcVVxADSWiYhXs2+zdLZVUcFVxATWUiIpVsG+zd7dUUsH3kd8jPwMqDvED
+        eHt7SxwOP9yeJnqYn/lHVGxBt1RSwT6YgN2yv4BTgdgcks/iv4tvQp0zpmLygCJW09l/rW6JpPtgKJk1
+        FG/hyN+EKraF0uOEim0l12V1Wt2Fz9WiRNseDByMt7rdjpH4QIz8G8iF5DNY4KVgnktzqXNWZ64beyke
+        0pOC4MsHw1hMC5ec5Vgkx+yDceSYeQYzBtj/Y8QSGPa098+VfLbEYlq45CzHIjnGnjVWN/YSe8Ne0/lC
+        4wZOVQ/m8fE4gIVG8DeR19fXgZz38iGpNcPyoyfHW531wSApd6Fxgw9gsn0wACbbBwNgsj8Dd3fHAS7k
+        5eUlUflpsThTg2M5j+VHT4yPWJ1Wt++F+0y5C40bfAAfUPbK7T+VDCzyIwwmfypZ3dgL95lyFxo3+AAm
+        Oz8YRc57QsUoOPaaPPtgKiw8mHQgYN892gdzLdFPrbfAf8BcN/ZS7bPQuFE9ENgHA6QDgU0P5guQgkfs
+        O8fp408VNRfsrWKQ/JEcsfcWu7a6fc5Kr4VwE4Pg2t4BTkaqwLnwvvXBPD8fB/IwInbH2ECsbpczitds
+        3akWBNf7YDAIrrc9GBYcMoPSSBXdA+Y+51F+H4rYmXq9AVZtXSoE4kuRNBhQRc8Je+TfWuwBa3dJhOuz
+        urGXYe9qUbJ9MCZKtu3B2KGRIlnElNaw6CVgjzwEfLbwMyZpvJa9GJOiAzKZKa1h0UvAHh9gMA4W7PlX
+        a2xiLrwfv+bbtXv1Z+EeMyl1yGDB3rYGU9O4b8NATnuqsV6yb4Q/COxlTr7Q1dQSk9QSPO7vg2GN+9sa
+        zDlhokA5kIBpuFYNGhZTozHeBGvFYIzFREbbHowyUNTk4hoaTUzEnpOKZ7qlkipqcnETzTomYs9JxTPd
+        mjOZa7bS8EAlrlfo0a05k9UaLqjE9Qo9PpSwsMnBiPWblWt0H0yWa3QfjFdqNDZ/DowN3Lxcw2ogEY4L
+        3Lxcw2ooEY4L3Lxcw2ooEY4LbEpqAMhmpYaB7Nr1KXQ4/AfUmsNhvwqB9wAAAABJRU5ErkJggg==
+</value>
   </data>
 </root>
