@@ -247,6 +247,7 @@ namespace WerewolfClient
                         UpdateAvatar(wm);
                         break;
                     case EventEnum.SwitchToDayTime:
+
                         AddChatMessage("Switch to day time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Day;
                         LBPeriod.Text = "Day time of";
@@ -309,11 +310,13 @@ namespace WerewolfClient
                         break;
                     case EventEnum.YouShotDead:
                         Gunshot();
+                        GunMemePlay();
                         AddChatMessage("You're shot dead by gunner.");
                         _isDead = true;
                         break;
                     case EventEnum.OtherShotDead:
                         Gunshot();
+                        GunMemePlay();
                         AddChatMessage(wm.EventPayloads["Game.Target.Name"] + " was shot dead by gunner.");
                         break;
                     case EventEnum.Alive:
@@ -348,6 +351,10 @@ namespace WerewolfClient
                                     break;
                             }
                         }
+                        break;
+                    case EventEnum.OtherVoteDead:
+                        AddChatMessage("PLAY RANDOMVOTEDEAD");
+                        RandomDeathVote();
                         break;
                 }
                 // need to reset event
@@ -460,6 +467,24 @@ namespace WerewolfClient
         private void Note_Click(object sender, EventArgs e)
         {
             note.Show();
+        }
+        Timer Gun1SEC = new Timer();
+        private void GunMemePlay()
+        {
+            
+            Gun1SEC.Interval = 1000;
+            Gun1SEC.Tick += new EventHandler(HideGunMeme);
+            Gun1SEC.Start();
+            pictureBox1.Show();
+            pictureBox1.BringToFront();
+            pictureBox1.Image = Properties.Resources.GunMeme;
+
+        }
+        private void HideGunMeme(object sender, EventArgs e)
+        {
+            Gun1SEC.Stop();
+            pictureBox1.SendToBack();
+            pictureBox1.Hide();
         }
     }
 }
