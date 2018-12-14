@@ -28,10 +28,18 @@ namespace WerewolfClient
         private bool _isDead;
         private bool DorN = false;
         private List<Player> players = null;
+        public SoundPlayer DP;
+        public SoundPlayer NP;
+        public SoundPlayer Bang;
         public MainForm()
         {
             InitializeComponent();
-
+            System.IO.Stream Guns = Properties.Resources.GunShot;
+            Bang = new SoundPlayer(Guns);
+            System.IO.Stream DMS = Properties.Resources.DayMusic;
+            DP = new SoundPlayer(DMS);
+            System.IO.Stream NMS = Properties.Resources.night_werewolf_2;
+            NP = new SoundPlayer(NMS);
             foreach (int i in Enumerable.Range(0, 16))
             {
                 this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Click += new System.EventHandler(this.BtnPlayerX_Click);
@@ -168,24 +176,19 @@ namespace WerewolfClient
                 i++;
             }
         }
+
         private void Gunshot()
         {
-            System.IO.Stream Guns = Properties.Resources.GunShot;
-            SoundPlayer Bang = new SoundPlayer(Guns);
             Bang.Play();
         }
         public void NightBGMusic()
         {
-            System.IO.Stream NMS = Properties.Resources.night_werewolf_2;
-            SoundPlayer NP = new SoundPlayer(NMS);
             NP.Play();
         }
         public void DayBGMusic()
         {
-            System.IO.Stream DMS = Properties.Resources.DayMusic;
-            SoundPlayer DP = new SoundPlayer(DMS);
             DP.Play();
-        }
+        }    
         public void Notify(Model m)
         {
             if (m is WerewolfModel)
@@ -212,11 +215,7 @@ namespace WerewolfClient
                         _updateTimer.Enabled = false;
                         break;
                     case EventEnum.GameStarted:
-                        if (n==1)
-                        {
-                            NightBGMusic();
-                            n++;
-                        }
+                        NightBGMusic();
                         players = wm.Players;
                         _myRole = wm.EventPayloads["Player.Role.Name"];
                         AddChatMessage("Your role is " + _myRole + ".");
