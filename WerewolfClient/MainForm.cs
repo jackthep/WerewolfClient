@@ -276,6 +276,10 @@ namespace WerewolfClient
                             TbChatBox.ForeColor = Color.Black;
                             TbChatInput.BackColor = Color.White;
                             TbChatInput.ForeColor = Color.Black;
+                            GBAction.ForeColor = Color.Black;
+                            GBChat.ForeColor = Color.Black;
+                            GBPlayers.ForeColor = Color.Black;
+                            GBStatus.ForeColor = Color.Black;
                             this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("D" + (_currentTime + 1));
                         }
                         else
@@ -284,6 +288,10 @@ namespace WerewolfClient
                             TbChatBox.ForeColor = Color.White;
                             TbChatInput.BackColor = Color.Black;
                             TbChatInput.ForeColor = Color.White;
+                            GBAction.ForeColor = Color.White;
+                            GBChat.ForeColor = Color.White;
+                            GBPlayers.ForeColor = Color.White;
+                            GBStatus.ForeColor = Color.White;
                             this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("N" + (_currentTime + 1));
                         }
                         break;
@@ -456,10 +464,30 @@ namespace WerewolfClient
             }
         }
 
-        Note note = new Note();
+        private bool click = true;        
         private void Note_Click(object sender, EventArgs e)
         {
-            note.Show();
+            if (click)
+            {
+                NoteTB.Show();
+                click = false;
+            }
+            else
+            {
+                NoteTB.Hide();
+                click = true;
+            }
+        }
+
+        Guide guide = new Guide();
+        private void GuideBTN_Click(object sender, EventArgs e)
+        {
+            guide.Show();
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

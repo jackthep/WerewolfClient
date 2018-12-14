@@ -30,6 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.GBPlayers = new System.Windows.Forms.GroupBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.BtnPlayer15 = new System.Windows.Forms.Button();
             this.BtnPlayer14 = new System.Windows.Forms.Button();
             this.BtnPlayer13 = new System.Windows.Forms.Button();
@@ -51,16 +67,19 @@
             this.TbChatInput = new System.Windows.Forms.TextBox();
             this.TbChatBox = new System.Windows.Forms.TextBox();
             this.GBAction = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Exit = new System.Windows.Forms.Button();
             this.BtnJoin = new System.Windows.Forms.Button();
             this.BtnAction = new System.Windows.Forms.Button();
             this.BtnVote = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.GBStatus = new System.Windows.Forms.GroupBox();
             this.LBTime = new System.Windows.Forms.Label();
             this.LBDay = new System.Windows.Forms.Label();
             this.LBPeriod = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.NoteTB = new System.Windows.Forms.TextBox();
+            this.GuideBTN = new System.Windows.Forms.Button();
             this.GBPlayers.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.GBChat.SuspendLayout();
@@ -71,6 +90,22 @@
             // GBPlayers
             // 
             this.GBPlayers.BackColor = System.Drawing.Color.Transparent;
+            this.GBPlayers.Controls.Add(this.label18);
+            this.GBPlayers.Controls.Add(this.label17);
+            this.GBPlayers.Controls.Add(this.label16);
+            this.GBPlayers.Controls.Add(this.label15);
+            this.GBPlayers.Controls.Add(this.label14);
+            this.GBPlayers.Controls.Add(this.label13);
+            this.GBPlayers.Controls.Add(this.label12);
+            this.GBPlayers.Controls.Add(this.label11);
+            this.GBPlayers.Controls.Add(this.label10);
+            this.GBPlayers.Controls.Add(this.label9);
+            this.GBPlayers.Controls.Add(this.label8);
+            this.GBPlayers.Controls.Add(this.label7);
+            this.GBPlayers.Controls.Add(this.label6);
+            this.GBPlayers.Controls.Add(this.label5);
+            this.GBPlayers.Controls.Add(this.label4);
+            this.GBPlayers.Controls.Add(this.label3);
             this.GBPlayers.Controls.Add(this.BtnPlayer15);
             this.GBPlayers.Controls.Add(this.BtnPlayer14);
             this.GBPlayers.Controls.Add(this.BtnPlayer13);
@@ -97,8 +132,153 @@
             this.GBPlayers.TabStop = false;
             this.GBPlayers.Text = "Players";
             // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(464, 438);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(24, 17);
+            this.label18.TabIndex = 33;
+            this.label18.Text = "16";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(345, 437);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(24, 17);
+            this.label17.TabIndex = 32;
+            this.label17.Text = "15";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(227, 438);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(24, 17);
+            this.label16.TabIndex = 31;
+            this.label16.Text = "14";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(110, 438);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(24, 17);
+            this.label15.TabIndex = 30;
+            this.label15.Text = "13";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(464, 328);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(24, 17);
+            this.label14.TabIndex = 29;
+            this.label14.Text = "12";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(345, 327);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(24, 17);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "11";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(227, 328);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(24, 17);
+            this.label12.TabIndex = 27;
+            this.label12.Text = "10";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(118, 328);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(16, 17);
+            this.label11.TabIndex = 26;
+            this.label11.Text = "9";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(472, 220);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(16, 17);
+            this.label10.TabIndex = 25;
+            this.label10.Text = "8";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(353, 220);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(16, 17);
+            this.label9.TabIndex = 24;
+            this.label9.Text = "7";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(235, 220);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(16, 17);
+            this.label8.TabIndex = 23;
+            this.label8.Text = "6";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(118, 220);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(16, 17);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(472, 111);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(16, 17);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "4";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(353, 111);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(16, 17);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(235, 111);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(16, 17);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(118, 111);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(16, 17);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "1";
+            // 
             // BtnPlayer15
             // 
+            this.BtnPlayer15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer15.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer15.Image")));
             this.BtnPlayer15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer15.Location = new System.Drawing.Point(371, 347);
@@ -113,6 +293,7 @@
             // 
             // BtnPlayer14
             // 
+            this.BtnPlayer14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer14.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer14.Image")));
             this.BtnPlayer14.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer14.Location = new System.Drawing.Point(253, 347);
@@ -127,6 +308,7 @@
             // 
             // BtnPlayer13
             // 
+            this.BtnPlayer13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer13.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer13.Image")));
             this.BtnPlayer13.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer13.Location = new System.Drawing.Point(136, 347);
@@ -141,6 +323,7 @@
             // 
             // BtnPlayer12
             // 
+            this.BtnPlayer12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer12.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer12.Image")));
             this.BtnPlayer12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer12.Location = new System.Drawing.Point(20, 347);
@@ -155,6 +338,7 @@
             // 
             // BtnPlayer11
             // 
+            this.BtnPlayer11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer11.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer11.Image")));
             this.BtnPlayer11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer11.Location = new System.Drawing.Point(371, 239);
@@ -169,6 +353,7 @@
             // 
             // BtnPlayer10
             // 
+            this.BtnPlayer10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer10.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer10.Image")));
             this.BtnPlayer10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer10.Location = new System.Drawing.Point(253, 239);
@@ -183,6 +368,7 @@
             // 
             // BtnPlayer9
             // 
+            this.BtnPlayer9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer9.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer9.Image")));
             this.BtnPlayer9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer9.Location = new System.Drawing.Point(136, 239);
@@ -197,6 +383,7 @@
             // 
             // BtnPlayer8
             // 
+            this.BtnPlayer8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer8.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer8.Image")));
             this.BtnPlayer8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer8.Location = new System.Drawing.Point(20, 239);
@@ -211,6 +398,7 @@
             // 
             // BtnPlayer7
             // 
+            this.BtnPlayer7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer7.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer7.Image")));
             this.BtnPlayer7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer7.Location = new System.Drawing.Point(371, 130);
@@ -225,6 +413,7 @@
             // 
             // BtnPlayer6
             // 
+            this.BtnPlayer6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer6.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer6.Image")));
             this.BtnPlayer6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer6.Location = new System.Drawing.Point(253, 130);
@@ -239,6 +428,7 @@
             // 
             // BtnPlayer5
             // 
+            this.BtnPlayer5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer5.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer5.Image")));
             this.BtnPlayer5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer5.Location = new System.Drawing.Point(136, 130);
@@ -253,6 +443,7 @@
             // 
             // BtnPlayer4
             // 
+            this.BtnPlayer4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer4.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer4.Image")));
             this.BtnPlayer4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer4.Location = new System.Drawing.Point(20, 130);
@@ -267,6 +458,7 @@
             // 
             // BtnPlayer3
             // 
+            this.BtnPlayer3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer3.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer3.Image")));
             this.BtnPlayer3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer3.Location = new System.Drawing.Point(371, 23);
@@ -281,6 +473,7 @@
             // 
             // BtnPlayer2
             // 
+            this.BtnPlayer2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer2.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer2.Image")));
             this.BtnPlayer2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer2.Location = new System.Drawing.Point(253, 23);
@@ -295,6 +488,7 @@
             // 
             // BtnPlayer1
             // 
+            this.BtnPlayer1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer1.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer1.Image")));
             this.BtnPlayer1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer1.Location = new System.Drawing.Point(136, 23);
@@ -309,6 +503,7 @@
             // 
             // BtnPlayer0
             // 
+            this.BtnPlayer0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlayer0.Image = ((System.Drawing.Image)(resources.GetObject("BtnPlayer0.Image")));
             this.BtnPlayer0.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPlayer0.Location = new System.Drawing.Point(20, 23);
@@ -334,11 +529,11 @@
             this.GBChat.BackColor = System.Drawing.Color.Transparent;
             this.GBChat.Controls.Add(this.TbChatInput);
             this.GBChat.Controls.Add(this.TbChatBox);
-            this.GBChat.Location = new System.Drawing.Point(551, 15);
+            this.GBChat.Location = new System.Drawing.Point(16, 501);
             this.GBChat.Margin = new System.Windows.Forms.Padding(4);
             this.GBChat.Name = "GBChat";
             this.GBChat.Padding = new System.Windows.Forms.Padding(4);
-            this.GBChat.Size = new System.Drawing.Size(500, 586);
+            this.GBChat.Size = new System.Drawing.Size(516, 315);
             this.GBChat.TabIndex = 2;
             this.GBChat.TabStop = false;
             this.GBChat.Text = "Chat";
@@ -346,32 +541,32 @@
             // TbChatInput
             // 
             this.TbChatInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TbChatInput.Location = new System.Drawing.Point(20, 533);
+            this.TbChatInput.Location = new System.Drawing.Point(19, 267);
             this.TbChatInput.Margin = new System.Windows.Forms.Padding(4);
             this.TbChatInput.Name = "TbChatInput";
-            this.TbChatInput.Size = new System.Drawing.Size(471, 30);
+            this.TbChatInput.Size = new System.Drawing.Size(483, 30);
             this.TbChatInput.TabIndex = 1;
             this.TbChatInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TbChatInput_Enter);
             // 
             // TbChatBox
             // 
             this.TbChatBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TbChatBox.Location = new System.Drawing.Point(21, 24);
+            this.TbChatBox.Location = new System.Drawing.Point(19, 23);
             this.TbChatBox.Margin = new System.Windows.Forms.Padding(4);
             this.TbChatBox.Multiline = true;
             this.TbChatBox.Name = "TbChatBox";
             this.TbChatBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TbChatBox.Size = new System.Drawing.Size(471, 501);
+            this.TbChatBox.Size = new System.Drawing.Size(483, 236);
             this.TbChatBox.TabIndex = 0;
             // 
             // GBAction
             // 
             this.GBAction.BackColor = System.Drawing.Color.Transparent;
-            this.GBAction.Controls.Add(this.button1);
+            this.GBAction.Controls.Add(this.Exit);
             this.GBAction.Controls.Add(this.BtnJoin);
             this.GBAction.Controls.Add(this.BtnAction);
             this.GBAction.Controls.Add(this.BtnVote);
-            this.GBAction.Location = new System.Drawing.Point(16, 500);
+            this.GBAction.Location = new System.Drawing.Point(540, 15);
             this.GBAction.Margin = new System.Windows.Forms.Padding(4);
             this.GBAction.Name = "GBAction";
             this.GBAction.Padding = new System.Windows.Forms.Padding(4);
@@ -380,62 +575,85 @@
             this.GBAction.TabStop = false;
             this.GBAction.Text = "Action";
             // 
+            // Exit
+            // 
+            this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.Exit.ForeColor = System.Drawing.Color.Red;
+            this.Exit.Location = new System.Drawing.Point(314, 16);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(35, 35);
+            this.Exit.TabIndex = 10;
+            this.Exit.Text = "X";
+            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            // 
+            // BtnJoin
+            // 
+            this.BtnJoin.BackColor = System.Drawing.Color.Transparent;
+            this.BtnJoin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnJoin.Location = new System.Drawing.Point(224, 23);
+            this.BtnJoin.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnJoin.Name = "BtnJoin";
+            this.BtnJoin.Size = new System.Drawing.Size(74, 58);
+            this.BtnJoin.TabIndex = 9;
+            this.BtnJoin.Text = "Join Game";
+            this.BtnJoin.UseVisualStyleBackColor = false;
+            this.BtnJoin.Click += new System.EventHandler(this.BtnJoin_Click);
+            // 
+            // BtnAction
+            // 
+            this.BtnAction.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAction.Location = new System.Drawing.Point(125, 23);
+            this.BtnAction.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnAction.Name = "BtnAction";
+            this.BtnAction.Size = new System.Drawing.Size(74, 58);
+            this.BtnAction.TabIndex = 1;
+            this.BtnAction.Text = "Action";
+            this.BtnAction.UseVisualStyleBackColor = false;
+            this.BtnAction.Click += new System.EventHandler(this.BtnAction_Click);
+            // 
+            // BtnVote
+            // 
+            this.BtnVote.BackColor = System.Drawing.Color.Transparent;
+            this.BtnVote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnVote.Location = new System.Drawing.Point(24, 23);
+            this.BtnVote.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnVote.Name = "BtnVote";
+            this.BtnVote.Size = new System.Drawing.Size(74, 58);
+            this.BtnVote.TabIndex = 0;
+            this.BtnVote.Text = "Vote";
+            this.BtnVote.UseVisualStyleBackColor = false;
+            this.BtnVote.Click += new System.EventHandler(this.BtnVote_Click);
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(273, 24);
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(820, 234);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 57);
+            this.button1.Size = new System.Drawing.Size(76, 28);
             this.button1.TabIndex = 10;
             this.button1.Text = "Note";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Note_Click);
             // 
-            // BtnJoin
-            // 
-            this.BtnJoin.Location = new System.Drawing.Point(183, 24);
-            this.BtnJoin.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnJoin.Name = "BtnJoin";
-            this.BtnJoin.Size = new System.Drawing.Size(73, 57);
-            this.BtnJoin.TabIndex = 9;
-            this.BtnJoin.Text = "Join Game";
-            this.BtnJoin.UseVisualStyleBackColor = true;
-            this.BtnJoin.Click += new System.EventHandler(this.BtnJoin_Click);
-            // 
-            // BtnAction
-            // 
-            this.BtnAction.Location = new System.Drawing.Point(100, 24);
-            this.BtnAction.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnAction.Name = "BtnAction";
-            this.BtnAction.Size = new System.Drawing.Size(75, 57);
-            this.BtnAction.TabIndex = 1;
-            this.BtnAction.Text = "Action";
-            this.BtnAction.UseVisualStyleBackColor = true;
-            this.BtnAction.Click += new System.EventHandler(this.BtnAction_Click);
-            // 
-            // BtnVote
-            // 
-            this.BtnVote.Location = new System.Drawing.Point(24, 23);
-            this.BtnVote.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnVote.Name = "BtnVote";
-            this.BtnVote.Size = new System.Drawing.Size(68, 57);
-            this.BtnVote.TabIndex = 0;
-            this.BtnVote.Text = "Vote";
-            this.BtnVote.UseVisualStyleBackColor = true;
-            this.BtnVote.Click += new System.EventHandler(this.BtnVote_Click);
-            // 
             // GBStatus
             // 
-            this.GBStatus.BackColor = System.Drawing.SystemColors.Control;
+            this.GBStatus.BackColor = System.Drawing.Color.Transparent;
+            this.GBStatus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.GBStatus.Controls.Add(this.LBTime);
             this.GBStatus.Controls.Add(this.LBDay);
             this.GBStatus.Controls.Add(this.LBPeriod);
             this.GBStatus.Controls.Add(this.label2);
             this.GBStatus.Controls.Add(this.label1);
-            this.GBStatus.Location = new System.Drawing.Point(380, 500);
+            this.GBStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.GBStatus.Location = new System.Drawing.Point(540, 124);
             this.GBStatus.Margin = new System.Windows.Forms.Padding(4);
             this.GBStatus.Name = "GBStatus";
             this.GBStatus.Padding = new System.Windows.Forms.Padding(4);
-            this.GBStatus.Size = new System.Drawing.Size(152, 101);
+            this.GBStatus.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.GBStatus.Size = new System.Drawing.Size(356, 101);
             this.GBStatus.TabIndex = 8;
             this.GBStatus.TabStop = false;
             this.GBStatus.Text = "Status";
@@ -490,20 +708,49 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Day #";
             // 
+            // NoteTB
+            // 
+            this.NoteTB.Location = new System.Drawing.Point(540, 270);
+            this.NoteTB.Multiline = true;
+            this.NoteTB.Name = "NoteTB";
+            this.NoteTB.Size = new System.Drawing.Size(356, 528);
+            this.NoteTB.TabIndex = 9;
+            this.NoteTB.Visible = false;
+            // 
+            // GuideBTN
+            // 
+            this.GuideBTN.BackColor = System.Drawing.SystemColors.Control;
+            this.GuideBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.GuideBTN.Location = new System.Drawing.Point(739, 234);
+            this.GuideBTN.Name = "GuideBTN";
+            this.GuideBTN.Size = new System.Drawing.Size(75, 28);
+            this.GuideBTN.TabIndex = 11;
+            this.GuideBTN.Text = "Guide";
+            this.GuideBTN.UseVisualStyleBackColor = false;
+            this.GuideBTN.Click += new System.EventHandler(this.GuideBTN_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 625);
+            this.BackgroundImage = global::WerewolfClient.Properties.Resources.D23;
+            this.ClientSize = new System.Drawing.Size(906, 825);
+            this.Controls.Add(this.GuideBTN);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.NoteTB);
             this.Controls.Add(this.GBStatus);
             this.Controls.Add(this.GBAction);
             this.Controls.Add(this.GBChat);
             this.Controls.Add(this.GBPlayers);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Werewolf Client";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.GBPlayers.ResumeLayout(false);
+            this.GBPlayers.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.GBChat.ResumeLayout(false);
             this.GBChat.PerformLayout();
@@ -511,6 +758,7 @@
             this.GBStatus.ResumeLayout(false);
             this.GBStatus.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -548,6 +796,25 @@
         private System.Windows.Forms.Button BtnAction;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox NoteTB;
+        private System.Windows.Forms.Button GuideBTN;
+        private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
     }
 }
 
