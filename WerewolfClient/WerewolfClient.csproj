@@ -118,8 +118,27 @@
       <Name>WerewolfAPI</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night_werewolf_2.wav" />
     <None Include="Resources\N30.jpg" />
     <None Include="Resources\N29.jpg" />
     <None Include="Resources\N28.jpg" />
@@ -186,6 +205,8 @@
     <None Include="Resources\File_DeathBurned.gif" />
     <None Include="Resources\DeathBurned.gif" />
     <None Include="Resources\DeathDrown.gif" />
+    <None Include="Resources\GunMeme.jpg" />
+    <None Include="Resources\DayMusic.wav" />
     <Content Include="Resources\Icon_alpha_werewolf.png" />
     <Content Include="Resources\Icon_aura_seer.png" />
     <Content Include="Resources\Icon_bodyguard.png" />

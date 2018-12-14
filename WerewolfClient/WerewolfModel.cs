@@ -58,6 +58,7 @@ namespace WerewolfClient
             Alive = 15,
             Chat = 16,
             ChatMessage = 17,
+            OtherVoteDead = 18
         }
         public const string ROLE_SEER = "Seer";
         public const string ROLE_AURA_SEER = "Aura Seer";
@@ -243,6 +244,16 @@ namespace WerewolfClient
                             {
                                 _event = EventEnum.Alive;
                                 if (player.Id != Player.Id)
+                                {
+                                    _eventPayloads["Game.Target.Id"] = player.Id.ToString();
+                                    _eventPayloads["Game.Target.Name"] = player.Name;
+                                }
+                                NotifyAll();
+                            }
+                            if(player.Status == Player.StatusEnum.Votedead && prevPlayer.Status != Player.StatusEnum.Votedead)
+                            {
+                                _event = EventEnum.OtherVoteDead;
+                                if(player.Id == Player.Id)
                                 {
                                     _eventPayloads["Game.Target.Id"] = player.Id.ToString();
                                     _eventPayloads["Game.Target.Name"] = player.Name;

@@ -170,9 +170,21 @@ namespace WerewolfClient
         }
         private void Gunshot()
         {
-            System.IO.Stream Guns = Properties.Resources.GunShot;
+            System.IO.Stream Guns = Properties                                                                                                                               .Resources.GunShot;
             SoundPlayer Bang = new SoundPlayer(Guns);
             Bang.Play();
+        }
+        public void NightBGMusic()
+        {
+            System.IO.Stream NMS = Properties.Resources.night_werewolf_2;
+            SoundPlayer NP = new SoundPlayer(NMS);
+            NP.Play();
+        }
+        public void DayBGMusic()
+        {
+            System.IO.Stream DMS = Properties.Resources.DayMusic;
+            SoundPlayer DP = new SoundPlayer(DMS);
+            DP.Play();
         }
         public void Notify(Model m)
         {
@@ -200,6 +212,11 @@ namespace WerewolfClient
                         _updateTimer.Enabled = false;
                         break;
                     case EventEnum.GameStarted:
+                        if (n==1)
+                        {
+                            NightBGMusic();
+                            n++;
+                        }
                         players = wm.Players;
                         _myRole = wm.EventPayloads["Player.Role.Name"];
                         AddChatMessage("Your role is " + _myRole + ".");
@@ -247,13 +264,14 @@ namespace WerewolfClient
                         UpdateAvatar(wm);
                         break;
                     case EventEnum.SwitchToDayTime:
+                        DayBGMusic();
                         AddChatMessage("Switch to day time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Day;
                         LBPeriod.Text = "Day time of";
                         DorN = true;
                         break;
                     case EventEnum.SwitchToNightTime:
-                        RandomDeathVote();
+                        NightBGMusic();
                         AddChatMessage("Switch to night time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Night;
                         LBPeriod.Text = "Night time of";
@@ -309,11 +327,13 @@ namespace WerewolfClient
                         break;
                     case EventEnum.YouShotDead:
                         Gunshot();
+                        GunMemePlay();
                         AddChatMessage("You're shot dead by gunner.");
                         _isDead = true;
                         break;
                     case EventEnum.OtherShotDead:
                         Gunshot();
+                        GunMemePlay();
                         AddChatMessage(wm.EventPayloads["Game.Target.Name"] + " was shot dead by gunner.");
                         break;
                     case EventEnum.Alive:
@@ -349,12 +369,15 @@ namespace WerewolfClient
                             }
                         }
                         break;
+                    case EventEnum.OtherVoteDead:
+                        RandomDeathVote();
+                        break;
                 }
                 // need to reset event
                 wm.Event = EventEnum.NOP;
             }
         }
-
+        int n = 1;
         public void setController(Controller c)
         {
             controller = (WerewolfController)c;
@@ -460,6 +483,24 @@ namespace WerewolfClient
         private void Note_Click(object sender, EventArgs e)
         {
             note.Show();
+        }
+        Timer Gun1SEC = new Timer();
+        private void GunMemePlay()
+        {
+            
+            Gun1SEC.Interval = 1000;
+            Gun1SEC.Tick += new EventHandler(HideGunMeme);
+            Gun1SEC.Start();
+            pictureBox1.Show();
+            pictureBox1.BringToFront();
+            pictureBox1.Image = Properties.Resources.GunMeme;
+
+        }
+        private void HideGunMeme(object sender, EventArgs e)
+        {
+            Gun1SEC.Stop();
+            pictureBox1.SendToBack();
+            pictureBox1.Hide();
         }
     }
 }
