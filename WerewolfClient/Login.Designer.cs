@@ -162,7 +162,7 @@
             // 
             this.TwoPL.BackColor = System.Drawing.Color.Transparent;
             this.TwoPL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TwoPL.Font = new System.Drawing.Font("HACKED", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TwoPL.Font = new System.Drawing.Font("HACKED", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TwoPL.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.TwoPL.Location = new System.Drawing.Point(358, 367);
             this.TwoPL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -177,7 +177,7 @@
             // 
             this.FourPL.BackColor = System.Drawing.Color.Transparent;
             this.FourPL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FourPL.Font = new System.Drawing.Font("HACKED", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FourPL.Font = new System.Drawing.Font("HACKED", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FourPL.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.FourPL.Location = new System.Drawing.Point(462, 367);
             this.FourPL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -192,7 +192,7 @@
             // 
             this.SixteenPL.BackColor = System.Drawing.Color.Transparent;
             this.SixteenPL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SixteenPL.Font = new System.Drawing.Font("HACKED", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SixteenPL.Font = new System.Drawing.Font("HACKED", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SixteenPL.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.SixteenPL.Location = new System.Drawing.Point(569, 367);
             this.SixteenPL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -219,7 +219,7 @@
             // 
             this.guide_button.BackColor = System.Drawing.Color.Transparent;
             this.guide_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.guide_button.Font = new System.Drawing.Font("HACKED", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guide_button.Font = new System.Drawing.Font("HACKED", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guide_button.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.guide_button.Location = new System.Drawing.Point(13, 785);
             this.guide_button.Margin = new System.Windows.Forms.Padding(4);
@@ -260,7 +260,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::WerewolfClient.Properties.Resources.Untitled_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(906, 825);
             this.Controls.Add(this.label5);

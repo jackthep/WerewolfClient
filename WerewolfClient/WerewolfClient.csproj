@@ -129,6 +129,9 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Untitled-11.jpg" />
+    <None Include="Resources\Introduce_2.png" />
+    <None Include="Resources\in2313.png" />
     <None Include="Resources\night_werewolf_2.wav" />
     <None Include="Resources\N30.jpg" />
     <None Include="Resources\N29.jpg" />
@@ -198,6 +201,7 @@
     <None Include="Resources\DeathDrown.gif" />
     <None Include="Resources\GunMeme.jpg" />
     <None Include="Resources\DayMusic.wav" />
+    <None Include="Resources\Dark-village.jpg" />
     <Content Include="Resources\Icon_alpha_werewolf.png" />
     <Content Include="Resources\Icon_aura_seer.png" />
     <Content Include="Resources\Icon_bodyguard.png" />
