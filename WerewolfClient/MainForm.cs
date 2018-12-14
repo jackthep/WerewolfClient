@@ -170,9 +170,21 @@ namespace WerewolfClient
         }
         private void Gunshot()
         {
-            System.IO.Stream Guns = Properties.Resources.GunShot;
+            System.IO.Stream Guns = Properties                                                                                                                               .Resources.GunShot;
             SoundPlayer Bang = new SoundPlayer(Guns);
             Bang.Play();
+        }
+        public void NightBGMusic()
+        {
+            System.IO.Stream NMS = Properties.Resources.night_werewolf_2;
+            SoundPlayer NP = new SoundPlayer(NMS);
+            NP.Play();
+        }
+        public void DayBGMusic()
+        {
+            System.IO.Stream DMS = Properties.Resources.DayMusic;
+            SoundPlayer DP = new SoundPlayer(DMS);
+            DP.Play();
         }
         public void Notify(Model m)
         {
@@ -200,6 +212,11 @@ namespace WerewolfClient
                         _updateTimer.Enabled = false;
                         break;
                     case EventEnum.GameStarted:
+                        if (n==1)
+                        {
+                            NightBGMusic();
+                            n++;
+                        }
                         players = wm.Players;
                         _myRole = wm.EventPayloads["Player.Role.Name"];
                         AddChatMessage("Your role is " + _myRole + ".");
@@ -247,14 +264,14 @@ namespace WerewolfClient
                         UpdateAvatar(wm);
                         break;
                     case EventEnum.SwitchToDayTime:
-
+                        DayBGMusic();
                         AddChatMessage("Switch to day time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Day;
                         LBPeriod.Text = "Day time of";
                         DorN = true;
                         break;
                     case EventEnum.SwitchToNightTime:
-                        RandomDeathVote();
+                        NightBGMusic();
                         AddChatMessage("Switch to night time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Night;
                         LBPeriod.Text = "Night time of";
@@ -353,7 +370,6 @@ namespace WerewolfClient
                         }
                         break;
                     case EventEnum.OtherVoteDead:
-                        AddChatMessage("PLAY RANDOMVOTEDEAD");
                         RandomDeathVote();
                         break;
                 }
@@ -361,7 +377,7 @@ namespace WerewolfClient
                 wm.Event = EventEnum.NOP;
             }
         }
-
+        int n = 1;
         public void setController(Controller c)
         {
             controller = (WerewolfController)c;

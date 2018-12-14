@@ -250,7 +250,7 @@ namespace WerewolfClient
                                 }
                                 NotifyAll();
                             }
-                            /*if(player.Status == Player.StatusEnum.Votedead && prevPlayer.Status != Player.StatusEnum.Votedead)
+                            if(player.Status == Player.StatusEnum.Votedead && prevPlayer.Status != Player.StatusEnum.Votedead)
                             {
                                 _event = EventEnum.OtherVoteDead;
                                 if(player.Id == Player.Id)
@@ -259,7 +259,7 @@ namespace WerewolfClient
                                     _eventPayloads["Game.Target.Name"] = player.Name;
                                 }
                                 NotifyAll();
-                            }*/
+                            }
                         }
                         _currentTime++;
                         if (_game.Period != _currentPeriod) // change period
