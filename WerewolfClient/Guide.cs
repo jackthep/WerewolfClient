@@ -21,5 +21,10 @@ namespace WerewolfClient
 		{
 
 		}
-	}
+
+        private void Hide_Click(object sender, EventArgs e)
+        {
+           Hide();
+        }
+    }
 }
