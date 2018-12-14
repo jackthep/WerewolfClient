@@ -170,7 +170,7 @@ namespace WerewolfClient
         }
         private void Gunshot()
         {
-            System.IO.Stream Guns = Properties.Resources.GunShot;                                                                                                         .Resources.GunShot;
+            System.IO.Stream Guns = Properties.Resources.GunShot;
             SoundPlayer Bang = new SoundPlayer(Guns);
             Bang.Play();
         }
